@@ -1,0 +1,35 @@
+<!DOCTYPE html
+<html lang="en">
+    <html>
+        <head>
+            <title>Application Form</title>
+            <link rel="stylesheet" hef="style.css">
+        </head>
+        <body>
+            <h1>Application Form</h1>
+            <p>Please fill out the form</p>
+
+<form id="myForm">
+  <label for="name">Name:</label>
+  <input type="text" id="Name" required>
+  <label for="surname">Surname:</label>
+  <input type="text" id="Surname" required>
+  <label for="id number">ID number:</label>
+  <input type="text" id="ID number" required>
+  <label for="email">Email:</label>
+  <input type="text" id="email" required>
+  <label for="username">Username:</label>
+  <input type="text" id="username">
+  <button type="submit">Submit</button>
+  <p id="validationMessage"></p>
+  <p id="errorMessage" style="color: red;"></p>
+</form>
+
+<div id="successMessage" style="display: none;">Form submitted successfully</div>
+<button id="toggleButton">Hide Text</button>
+<button id="extraText">Show More</button>
+<p id="toggleText">This text will be hidden or shown when you click the button.</p>
+<div id="extraText" style="display:none,">This is extra text</div>
+<script src="script.js"></script>
+</body>
+<html>
